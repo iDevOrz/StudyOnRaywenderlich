@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2CDC9719FB441200BDF4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CDC9619FB441200BDF4E3 /* AppDelegate.swift */; };
+		2A2CDC9A19FB441200BDF4E3 /* TouchMeIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CDC9819FB441200BDF4E3 /* TouchMeIn.xcdatamodeld */; };
+		2A2CDC9C19FB441200BDF4E3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CDC9B19FB441200BDF4E3 /* MasterViewController.swift */; };
+		2A2CDC9E19FB441200BDF4E3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CDC9D19FB441200BDF4E3 /* DetailViewController.swift */; };
+		2A2CDCA119FB441200BDF4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2CDC9F19FB441200BDF4E3 /* Main.storyboard */; };
+		2A2CDCA319FB441200BDF4E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2CDCA219FB441200BDF4E3 /* Images.xcassets */; };
+		2A2CDCA619FB441200BDF4E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2CDCA419FB441200BDF4E3 /* LaunchScreen.xib */; };
+		2A94F6E619FE7D31007CED2D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94F6E519FE7D31007CED2D /* Note.swift */; };
+		2AC21FA11A005A88003FD06F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC21FA01A005A88003FD06F /* LoginViewController.swift */; };
+		45490A241F5BD58B00480FF8 /* TouchIDAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45490A231F5BD58B00480FF8 /* TouchIDAuthentication.swift */; };
+		45D7AC021F590469004DF355 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7AC011F590469004DF355 /* KeychainPasswordItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A2CDC9119FB441200BDF4E3 /* TouchMeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchMeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2CDC9519FB441200BDF4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2CDC9619FB441200BDF4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A2CDC9919FB441200BDF4E3 /* TouchMeIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TouchMeIn.xcdatamodel; sourceTree = "<group>"; };
+		2A2CDC9B19FB441200BDF4E3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MasterViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2A2CDC9D19FB441200BDF4E3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2A2CDCA019FB441200BDF4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A2CDCA219FB441200BDF4E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A2CDCA519FB441200BDF4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2A94F6E519FE7D31007CED2D /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		2AC21FA01A005A88003FD06F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45490A231F5BD58B00480FF8 /* TouchIDAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDAuthentication.swift; sourceTree = "<group>"; };
+		45D7AC011F590469004DF355 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainPasswordItem.swift; path = ../../GenericKeychain/GenericKeychain/KeychainPasswordItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2CDC8E19FB441200BDF4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2CDC8819FB441200BDF4E3 = {
+			isa = PBXGroup;
+			children = (
+				2A2CDC9319FB441200BDF4E3 /* TouchMeIn */,
+				2A2CDC9219FB441200BDF4E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A2CDC9219FB441200BDF4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A2CDC9119FB441200BDF4E3 /* TouchMeIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A2CDC9319FB441200BDF4E3 /* TouchMeIn */ = {
+			isa = PBXGroup;
+			children = (
+				2A2CDC9619FB441200BDF4E3 /* AppDelegate.swift */,
+				2A2CDC9B19FB441200BDF4E3 /* MasterViewController.swift */,
+				2A2CDC9D19FB441200BDF4E3 /* DetailViewController.swift */,
+				2A94F6E519FE7D31007CED2D /* Note.swift */,
+				2AC21FA01A005A88003FD06F /* LoginViewController.swift */,
+				45490A231F5BD58B00480FF8 /* TouchIDAuthentication.swift */,
+				45D7AC011F590469004DF355 /* KeychainPasswordItem.swift */,
+				2A2CDC9F19FB441200BDF4E3 /* Main.storyboard */,
+				2A2CDCA219FB441200BDF4E3 /* Images.xcassets */,
+				2A2CDCA419FB441200BDF4E3 /* LaunchScreen.xib */,
+				2A2CDC9819FB441200BDF4E3 /* TouchMeIn.xcdatamodeld */,
+				2A2CDC9419FB441200BDF4E3 /* Supporting Files */,
+			);
+			path = TouchMeIn;
+			sourceTree = "<group>";
+		};
+		2A2CDC9419FB441200BDF4E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A2CDC9519FB441200BDF4E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2CDC9019FB441200BDF4E3 /* TouchMeIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2CDCB519FB441200BDF4E3 /* Build configuration list for PBXNativeTarget "TouchMeIn" */;
+			buildPhases = (
+				2A2CDC8D19FB441200BDF4E3 /* Sources */,
+				2A2CDC8E19FB441200BDF4E3 /* Frameworks */,
+				2A2CDC8F19FB441200BDF4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchMeIn;
+			productName = TouchMeIn;
+			productReference = 2A2CDC9119FB441200BDF4E3 /* TouchMeIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A2CDC8919FB441200BDF4E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "iT Guy Technologies";
+				TargetAttributes = {
+					2A2CDC9019FB441200BDF4E3 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = U8U5954S52;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2A2CDC8C19FB441200BDF4E3 /* Build configuration list for PBXProject "TouchMeIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A2CDC8819FB441200BDF4E3;
+			productRefGroup = 2A2CDC9219FB441200BDF4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2CDC9019FB441200BDF4E3 /* TouchMeIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2CDC8F19FB441200BDF4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2CDCA119FB441200BDF4E3 /* Main.storyboard in Resources */,
+				2A2CDCA619FB441200BDF4E3 /* LaunchScreen.xib in Resources */,
+				2A2CDCA319FB441200BDF4E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2CDC8D19FB441200BDF4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC21FA11A005A88003FD06F /* LoginViewController.swift in Sources */,
+				2A94F6E619FE7D31007CED2D /* Note.swift in Sources */,
+				2A2CDC9A19FB441200BDF4E3 /* TouchMeIn.xcdatamodeld in Sources */,
+				45D7AC021F590469004DF355 /* KeychainPasswordItem.swift in Sources */,
+				2A2CDC9719FB441200BDF4E3 /* AppDelegate.swift in Sources */,
+				2A2CDC9C19FB441200BDF4E3 /* MasterViewController.swift in Sources */,
+				45490A241F5BD58B00480FF8 /* TouchIDAuthentication.swift in Sources */,
+				2A2CDC9E19FB441200BDF4E3 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A2CDC9F19FB441200BDF4E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2CDCA019FB441200BDF4E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A2CDCA419FB441200BDF4E3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2CDCA519FB441200BDF4E3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A2CDCB319FB441200BDF4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A2CDCB419FB441200BDF4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A2CDCB619FB441200BDF4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U8U5954S52;
+				INFOPLIST_FILE = TouchMeIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A2CDCB719FB441200BDF4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U8U5954S52;
+				INFOPLIST_FILE = TouchMeIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A2CDC8C19FB441200BDF4E3 /* Build configuration list for PBXProject "TouchMeIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2CDCB319FB441200BDF4E3 /* Debug */,
+				2A2CDCB419FB441200BDF4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2CDCB519FB441200BDF4E3 /* Build configuration list for PBXNativeTarget "TouchMeIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2CDCB619FB441200BDF4E3 /* Debug */,
+				2A2CDCB719FB441200BDF4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A2CDC9819FB441200BDF4E3 /* TouchMeIn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A2CDC9919FB441200BDF4E3 /* TouchMeIn.xcdatamodel */,
+			);
+			currentVersion = 2A2CDC9919FB441200BDF4E3 /* TouchMeIn.xcdatamodel */;
+			path = TouchMeIn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A2CDC8919FB441200BDF4E3 /* Project object */;
+}
